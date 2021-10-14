@@ -90,13 +90,9 @@ button {
   justify-content: center;
 }
 
-button:active + img {
-  display: none;
-}
-
 button:hover {
   transform: rotate(1turn);
-  transition: .4s ease-in;
+  transition: .2s ease-in;
   background-color: var(--orange)
 }
 
